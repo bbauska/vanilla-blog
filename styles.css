@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,400;1,500&display=swap');
+html{
+  font-family: 'Ubuntu', sans-serif;
+}
+body{
+  width: 650px;
+  margin:auto;
+  line-height:25px;
+  font-size:16px;
+/*   font-weight:500; */
+  box-shadow:5px 5px 3px 2px rgba(0,0,0,.02);
+}
+h1{
+  font-size:32px;
+  font-weight:700;
+}
+h2{
+  font-size:24px;
+}
+h4{
+  font-style:italics;
+}
+p{
+/*   font-weight:600; */
+}
+a{
+  text-decoration:none;
+  color:hsl(141, 73%, 38%);
+}
+header{
+  background-color:hsl(141, 73%, 38%);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  height:150px;
+  text-align:center;
+  line-height:9px;
+}
+input[type="text"]{
+  margin-bottom:15px;
+  padding:5px 0;
+  width:100%;
+}
+input[type="text"]::placeholder{
+  padding:15px;
+}
+textarea::placeholder{
+  padding:15px;
+}
+button{
+  background-color:hsl(141, 73%, 38%);
+  border:1px solid #000;
+  width:100%;
+}
+textarea{
+  height:100px;
+  width:100%;
+}
+div.blog-container{
+  margin-top:100px;
+  margin-bottom:100px;
+}
+div.blog{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+footer{
+  background-color:#222;
+  color:#ccc;
+  margin-top:100px;
+  padding:30px;
+  text-align:center;
+}
